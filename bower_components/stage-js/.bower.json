@@ -1,0 +1,35 @@
+{
+  "name": "stage-js",
+  "description": "2D HTML5 JavaScript library for cross-platform game development",
+  "homepage": "http://piqnt.com/stage.js/",
+  "keywords": [
+    "html5",
+    "game",
+    "rendering",
+    "engine",
+    "2d",
+    "canvas",
+    "mobile"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/piqnt/stage.js.git"
+  },
+  "ignore": [
+    "example/",
+    "template/",
+    "test/"
+  ],
+  "version": "0.8.2",
+  "_release": "0.8.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.8.2",
+    "commit": "137b309d5b2971f1af9043001834531a0026a9ae"
+  },
+  "_source": "git://github.com/piqnt/stage.js.git",
+  "_target": "~0.8.2",
+  "_originalSource": "stage-js",
+  "_direct": true
+}

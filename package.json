@@ -1,0 +1,26 @@
+{
+  "name": "november",
+  "version": "1.0.0",
+  "description": "http://disasterpeace.com/january/ but in HTML5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notthetup/november.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notthetup/november/issues"
+  },
+  "homepage": "https://github.com/notthetup/november#readme",
+  "dependencies": {
+    "grunt": "0.4.5",
+    "grunt-bower-concat": "0.6.0",
+    "grunt-contrib-jshint": "0.11.3",
+    "grunt-contrib-watch": "0.6.1"
+  }
+}
