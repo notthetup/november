@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 			tasks: ['jshint']
 		},
 		bower_concat: {
-			options: {
+			all: {
 				dest: "dist/_bower.js",
 				cssDest: "dist/_bower.css"
 			}
@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
 	grunt.registerTask('default', ['jshint']);
-	grunt.registerTask('bower', ['bower_concat']);
+	grunt.registerTask('build', ['bower_concat']);
 
 
 };
